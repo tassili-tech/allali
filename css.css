@@ -1,1 +1,378 @@
+/* Setting up our grid */
+
+body {background-color: white;
+
+margin-top: 0;
+}
+
+
+
+
+.container {
+     
+    float: left;
+	width:800px;/*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: 60px; 
+    margin-top: 15px;
+    /* Margin-left and right are set to auto to center the container */
+}
+.c2{
+    float: left;
+    width: 180px;
+   
+   
+    background-color: white;
+     margin-top: 15px;
+    margin-right: 60px;
+    
+}
+
+.c3{
+    float: left;
+    width: 180px;
+    height: 475px;
+   
+    background-color: rebeccapurple;
+     margin-top: 0;
+    margin-right: 60px;
+    
+}
+
+.c4{
+    float: left;
+    width: 180px;
+    height: 530px;
+   
+    background-color: blue;
+     margin-top: 15px;
+    margin-right: auto;
+    
+}
+
+.c5{
+   float: left;
+    height: 250px;
+     width: 980px;
+      margin-top: 15px;
+    margin-left:  60px;
+     background-color:  #162b4d;
+    
+}
+.c6{float: left;
+    height: 150px;
+     width: 980px;
+      margin-top: 15px;
+    margin-left:  60px;
+     background-color:  #162b4d;}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0px; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+img.sidebutton{width: auto;
+height: auto;}
+
+
+header {
+    margin-left: 60px;
+	height: 50px;
+	background-color: #d13328;
+    margin-top: 0;
+    width: 980px;
+        
+}
+
+
+
+
+.row2 .six {
+   
+	height: 300px;
+	background-color: #b71757;
+}
+
+
+
+.row3 .six {
+    
+	height: 300px;
+	background-color: #0d7e71;
+}
+.row4 .six {
+    
+	height: 300px;
+	background-color: #445b87;
+}
+
+.row5 .six {
+    
+	height: 333px;
+	background-color:#00abcc;
+}
+
+.row6 {height: 148px;
+    width: 98%;
+	background-color: lightblue;
+        
+}
+
+
+
+ul{padding: 0;
+    margin=0;;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #162b4d;
+    
+}
+
+li{float: right;
+    height: 50px;
+    border-right: 2px solid white ;
+}
+li.sidebutton {height: 73px;
+display: none;}
+
+a.sidebutton {padding: 19px 15px;
+
+text-decoration: none;
+text-align: center;
+color: white;
+padding: 28px 16px;}
+  
+
+li.logo {float: left}
+
+
+
+a:not(.cbtn ){display: block;
+text-decoration: none;
+text-align: center;
+color: white;
+padding: 16px 16px;
+}
+
+
+a:hover{
+    background-color: #283d5f;
+}
+
+a.titre{float: left;
+    height: 245px;
+    margin-left: 0;
+    z-index: 10;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 1px;
+}
+a.titre:hover{opacity: 0.8;}
+img#titre{margin-top: -28px;
+margin-left: -16px;
+    height: 300px;
+    width: 391px;
+}
+
+a.cbtn{display: block;
+text-align: left;
+    padding:45px 5px;
+    padding-bottom: 0;
+}
+
+h3.titre{padding-left: 0;
+    margin-top: 0;
+  font-size: 35px;
+float: left;
+
+   
+ }
+
+p.titre{float: left;
+    padding-left: 5;
+   margin: -26px 0px;
+    font-size: 15px;
+}
+
+img.site{margin-top: 0px;
+margin-left: 0px;
+    height: 300px;
+    width: 391px;}
+h3.site{float: right;
+    padding-right: 0;
+    font-size: 40px;
+ margin-top: 0px;
+margin-left: 60px;
+   
+    
+}
+a.site{text-align: right;
+padding-bottom:  0;
+font-size: 40px}
+p.site{text-align: right;
+margin-left: 20px;float: right;
+margin: -30px 0px;
+    font-size: 15px;
+padding-right: 13px}
+
+img.logo{margin-top: 0px;
+margin-left: 0px;
+    height: 300px;
+    width: 391px;}
+h3.log{float: left;
+font-size: 40px;
+margin-top: 0px;}
+a.log{padding-left: 11px;
+text-align: left;
+padding-bottom: 0px;}
+p.log{float: left;margin-top: -30px;
+font-size: 15px;
+padding-left: 11px;}
+
+img.aboutme{margin-top: 0px;
+margin-left: 0px;
+    height: 220px;
+    width: 180px;}
+div.aboutme{height:225px}
+p.aboutme{float: left;
+padding-left: 7px;
+font-size: 15px;
+margin-top: 0;}
+
+h3.aboutme{float: right;
+margin-right: 12px;
+margin-top: 20px}
+img.logoo{margin-top: 0px;
+margin-left: 0px;
+    height: 333px;
+    width: 391px;}
+h3.logoo{float: right;
+    padding-right: 10px;
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: right;
+ margin-top: 15px;
+margin-left: 60px;
+}
+p.logoo{float: right;
+margin-top: -30;
+text-align: right;
+padding-right: 10px;}
+
+img.logos{margin-top: 0px;
+margin-left: 0px;
+    height: 580px;
+    width: 180px;}
+p.footer{font-size: 15px;
+    text-align: center;
+    margin:0px 302.7px;
+}
+p.footerme {float: right;
+opacity: 0.5;
+font-size: 15px;}
+div.footer{margin-left: 250px;
+margin: 10px 350px;
+text-align: center;}
+{height: 50px;}
+h3.contact{text-align: center;
+font-size: 30px;}
+a.contact{text-align: center;
+margin: 0px 400px;}
+
+@media screen and (max-width : 800px){
+header {
+	
+  width: 100%;
+  margin: auto;
+}
+    
+   
+.container, .c4,c5, .c2 ,.c3 ,c6{clear: left;
+                width:100%;
+                margin-left: auto;
+                margin-right: auto;
+    }
+
+
+   .row6, .six {clear: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    li.menuR{display: none;}
+    a.sidebutton{float: right;
+    display: block;}
+}
+
+
+
+@media not screen and (max-width : 1024px){
+    body{margin: 100px;
+    margin-top: 0px;}
+}
+
+
 
